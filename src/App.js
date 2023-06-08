@@ -49,7 +49,7 @@ function App() {
 
       <Routes>
           <Route index element={<TextFrom showAlert={showAlert} heading= "Enter The Text" mode={mode} />}/>
-          <Route path="/about" element={<About/>} />
+          <Route path="/about" element={<About mode={mode}/> } />
       </Routes>
 
       </div>
